@@ -1,0 +1,54 @@
+{
+    "servicios": [
+        {
+            "id": 1,
+            "nombre": "Corte Mirmir",
+            "precio": 800
+        },
+        {
+            "id": 2,
+            "nombre": "Caskito",
+            "precio": 100
+        },
+        {
+            "id": 3,
+            "nombre": "Fade",
+            "precio": 200
+        },
+        {
+            "id": 4,
+            "nombre": "Fade con nvj",
+            "precio": 320
+        },
+        {
+            "id": 5,
+            "nombre": "Cresta",
+            "precio": 60
+        },
+        {
+            "id": 6,
+            "nombre": "Tinte",
+            "precio": 100
+        },
+        {
+            "id": 7,
+            "nombre": "Corte onichan",
+            "precio": 300
+        },
+        {
+            "id": 8,
+            "nombre": "Lineas",
+            "precio": 400
+        },
+        {
+            "id": 9,
+            "nombre": "Corte turro",
+            "precio": 50
+        },
+        {
+            "id": 10,
+            "nombre" : "Tratamiento Capilar",
+            "precio": 150
+        }
+    ]
+}

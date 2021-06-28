@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/base/normalize.css">
+    <link rel="stylesheet" href="build/css/app.css">
+    <title>APP Salon</title>
+</head>
+<body>
+    <div class="contenedor-estetica">
+        <div class="img" id="img"></div>
+        <div class="app contenedor">
+            <header class="header">
+                <h1>App Peluqueria</h1>
+            </header>
+            <nav class="navegacion" id="nav">
+                <button type="button" data-paso="1">Servicios</button>
+                <button type="button" data-paso="2">Informacion Cliente</button>
+                <button type="button" data-paso="3">Resumen</button>
+            </nav>
+            <div id="paso1" class="seccion">
+                <h2>Servicios</h2>
+                <p class="subtitulo">Elegi tus Servicios a continuacion</p>
+                <div class="contenedor-servicios"></div>
+            </div>
+            <div id="paso2" class="seccion">
+                <h2>Tus datos y cita</h2>
+                <p class="subtitulo">Coloca tus datos y fecha de tu cita</p>
+                <form class="formulario">
+                    <div class="campo">
+                        <label class="label" for="nombre">Nombre</label>
+                        <input id="nombreCliente" type="text" placeholder="Tú Nombre"> 
+                    </div>
+                    <div class="campo">
+                        <label class="label" for="fecha">Fecha</label>
+                        <input type="date" id="fecha"> 
+                    </div>
+                    <div class="campo">
+                        <label class="label" for="hora">Hora</label>
+                        <input type="time" id="hora"> 
+                    </div>
+                </form>
+            </div>
+            <div class="seccion" id="paso3"></div>
+
+            <div class="paginacion">
+                <button type="button" id="anterior"> &laquo; Anterior</button>
+                <button type="button" id="siguiente">Siguiente &raquo;</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="build/js/bundle.js"></script>
+</body>
+</html>
